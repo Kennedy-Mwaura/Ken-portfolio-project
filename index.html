@@ -19,7 +19,7 @@
   <header>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar morpheus-den-gradient">
 
       <div class="container">
 
@@ -760,10 +760,88 @@
           </div>
   
         </section>
-  
-  
+        <!-- Section: Contact v.2 -->
 
-  
-    
+    </div>
+
+    <!-- Contact form -->
+    <div class="streak1">
+
+      <div class="flex-center">
+
+        <ul class="list-unstyled">
+
+          <li>
+            <h2 class="h2-responsive mt-5 wow fadeIn">Want an outstanding project?</h2>
+          </li>
+
+          <li>
+            <h5 class="h5-responsive wow fadeIn" data-wow-delay="0.2s">Just send me a message!</h5>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+    <!-- Customers carousel -->
+
+  </main>
+  <!-- Main layout -->
+
+  <!-- Scrollspy -->
+  <div class="dotted-scrollspy clearfix d-none d-sm-block">
+
+    <ul class="nav smooth-scroll flex-column">
+
+      <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#skills"><span></span></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#works"><span></span></a></li>
+
+      <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
+
+    </ul>
+
+  </div>
+  <!-- Scrollspy -->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript " src="assets/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript " src="assets/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript " src="assets/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript " src="assets/js/mdb.min.js"></script>
+
+  <script>
+    // initialize scrollspy
+    $('body').scrollspy({
+
+      target: '.dotted-scrollspy'
+    });
+
+    // initialize lightbox
+    $(function () {
+
+      $("#mdb-lightbox-ui").load("addons/lightbox-ui.html");
+    });
+
+    $('.navbar-collapse a').click(function () {
+
+      $(".navbar-collapse").collapse('hide');
+    });
+
+    /* WOW.js init */
+    new WOW().init();
+
+  </script>
+
 </body>
+
 </html>
