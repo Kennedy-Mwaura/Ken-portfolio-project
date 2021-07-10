@@ -24,6 +24,8 @@ This is a atatic landing page for my portfolio including a list of projects I've
   
 ## Link to live site
 
+[Check the live version here](https://kennedy-mwaura.github.io/Ken-portfolio-project/)
+
 ## Technologies Used
 
 * HTML5
